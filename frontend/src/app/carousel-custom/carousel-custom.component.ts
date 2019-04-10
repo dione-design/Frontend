@@ -10,6 +10,7 @@ export class CarouselCustomComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
