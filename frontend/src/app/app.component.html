@@ -1,21 +1,331 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="container-fluid">
+  <mat-toolbar class="custom-toolbar">
+    <mat-toolbar-row>
+      <span class="Heading">{{title}}</span>
+      <!-- <span class="example-spacer"></span> -->
+      <div class="ml-auto">
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example shopping-cart icon">shopping_cart
+        </mat-icon>
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example account-box icon">account_box</mat-icon>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-drawer-container class="example-container">
+    <mat-drawer class="drawer" mode="side" opened>
+
+      <form>
+        <div class="md-form active-blue-4 custom-search">
+          <input type="search" class="form-control form-custom" id="search6" aria-label="Search" mdbInput>
+          <label for="search6">Search</label>
+        </div>
+      </form>
+
+      <div class="list-custom">
+        <mat-accordion>
+          <!-- <mat-expansion-panel class="mat-elevation-z0"> -->
+          <!-- <mat-expansion-panel-header> -->
+          <!-- <mat-panel-title class="panel-title-custom"> -->
+          <!-- </mat-panel-title> -->
+          <!-- </mat-expansion-panel-header> -->
+          <!-- <mat-list> -->
+          <!-- New Arrivals -->
+          <!-- <mat-list-item class="custom-item">aduauygauyv</mat-list-item> -->
+          <!-- <mat-list-item class="custom-item">aduauygauyv</mat-list-item> -->
+          <!-- <mat-list-item class="custom-item">aduauygauyv</mat-list-item> -->
+          <!-- </mat-list> -->
+          <!-- </mat-expansion-panel> -->
+
+          <!-- <mat-expansion-panel class="mat-elevation-z0"> -->
+          <!-- <mat-expansion-panel-header> -->
+          <!-- <mat-panel-title class="panel-title-custom"> -->
+          <!-- Special Offers -->
+          <!-- </mat-panel-title> -->
+          <!-- </mat-expansion-panel-header> -->
+          <!-- <mat-list> -->
+          <!-- <mat-list-item class="custom-item">aduauygauyv</mat-list-item> -->
+          <!-- <mat-list-item class="custom-item">aduauygauyv</mat-list-item> -->
+          <!-- <mat-list-item class="custom-item">aduauygauyv</mat-list-item> -->
+          <!-- </mat-list> -->
+          <!-- </mat-expansion-panel> -->
+
+          <mat-expansion-panel class="mat-elevation-z0">
+            <mat-expansion-panel-header>
+              <mat-panel-title class="panel-title-custom">
+                Women
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-list>
+              <mat-list-item class="custom-item">Dresses</mat-list-item>
+              <mat-list-item class="custom-item">Skirts</mat-list-item>
+              <mat-list-item class="custom-item">Blouse</mat-list-item>
+              <mat-list-item class="custom-item">Trousers</mat-list-item>
+              <mat-list-item class="custom-item">Night-wear</mat-list-item>
+            </mat-list>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel class="mat-elevation-z0">
+            <mat-expansion-panel-header>
+              <mat-panel-title class="panel-title-custom">
+                Men
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-list>
+              <mat-list-item class="custom-item">Shirts</mat-list-item>
+              <mat-list-item class="custom-item">Shorts</mat-list-item>
+              <mat-list-item class="custom-item">T-shirts</mat-list-item>
+            </mat-list>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel class="mat-elevation-z0">
+            <mat-expansion-panel-header>
+              <mat-panel-title class="panel-title-custom">
+                Kids
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-list>
+              <mat-list-item class="custom-item">Dresses</mat-list-item>
+              <mat-list-item class="custom-item">Shorts</mat-list-item>
+              <mat-list-item class="custom-item">T-shirts</mat-list-item>
+              <mat-list-item class="custom-item">Blouse</mat-list-item>
+            </mat-list>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel class="mat-elevation-z0">
+            <mat-expansion-panel-header>
+              <mat-panel-title class="panel-title-custom">
+                Other
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-list>
+              <mat-list-item class="custom-item">Bed-Linnon</mat-list-item>
+              <mat-list-item class="custom-item">Baby Products</mat-list-item> <!-- nappies, towels, bibs -->
+            </mat-list>
+          </mat-expansion-panel>
+
+        </mat-accordion>
+      </div>
+      <hr>
+
+      <div class="special-items">
+        <mat-list>
+          <!-- <mat-list-item class="special-item-list"> -->
+            <!-- <a>Latest</a> -->
+          <!-- </mat-list-item> -->
+          <!-- <mat-list-item class="special-item-list"> -->
+            <!-- <a>Special Offers</a> -->
+          <!-- </mat-list-item> -->
+          <!-- <hr> -->
+          <mat-list-item class="special-item-list">
+            <a>Designer Wear</a>
+          </mat-list-item>
+          <mat-list-item class="special-item-list">
+            <a>Party Wear</a>
+          </mat-list-item>
+        </mat-list>
+      </div>
+
+    </mat-drawer>
+
+    <mat-drawer-content class="content container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="carousel-custom mx-auto">
+            <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+              <mdb-carousel-item>
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                  alt="First slide">
+              </mdb-carousel-item>
+              <mdb-carousel-item>
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+                  alt="Second slide">
+              </mdb-carousel-item>
+              <mdb-carousel-item>
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+                  alt="Third slide">
+              </mdb-carousel-item>
+            </mdb-carousel>
+          </div>
+
+          <div class="row mx-1">
+            <div class="col-md-12">
+              <div class="card-deck custom-card-deck mx-auto">
+                <!-- Card -->
+                <mdb-card>
+                  <div class="view overlay waves-light" mdbWavesEffect>
+                    <!-- Card img -->
+                    <mdb-card-img src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                    </mdb-card-img>
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+                  <!--Card content-->
+                  <mdb-card-body>
+                    <!--Title-->
+                    <mdb-card-title>
+                      <h4>Card Title</h4>
+                    </mdb-card-title>
+
+                    <!--Text-->
+                    <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.
+                    </mdb-card-text>
+
+                    <a href="#" mdbBtn color="primary" mdbWavesEffect>Button</a>
+                  </mdb-card-body>
+                </mdb-card>
+
+                <!-- Card -->
+                <mdb-card>
+                  <div class="view rgba-white-slight waves-light" mdbWavesEffect>
+                    <!-- Card img -->
+                    <mdb-card-img src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+                    </mdb-card-img>
+                    <a>
+                      <div class="mask"></div>
+                    </a>
+                  </div>
+                  <!--Card content-->
+                  <mdb-card-body>
+                    <!--Title-->
+                    <mdb-card-title>
+                      <h4>Card Title</h4>
+                    </mdb-card-title>
+
+                    <!--Text-->
+                    <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.
+                    </mdb-card-text>
+
+                    <a href="#" mdbBtn color="primary" mdbWavesEffect>Button</a>
+                  </mdb-card-body>
+                </mdb-card>
+
+                <!-- Card -->
+                <mdb-card>
+                  <div class="view rgba-white-slight waves-light" mdbWavesEffect>
+                    <!-- Card img -->
+                    <mdb-card-img src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+                    </mdb-card-img>
+                    <a>
+                      <div class="mask"></div>
+                    </a>
+                  </div>
+                  <!--Card content-->
+                  <mdb-card-body>
+                    <!--Title-->
+                    <mdb-card-title>
+                      <h4>Card Title</h4>
+                    </mdb-card-title>
+
+                    <!--Text-->
+                    <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.
+                    </mdb-card-text>
+
+                    <a href="#" mdbBtn color="primary" mdbWavesEffect>Button</a>
+                  </mdb-card-body>
+                </mdb-card>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <mat-list class="scrollspy-custom">
+            <mat-list-item class="scrollspy-list-custom">svdisdvy</mat-list-item>
+            <mat-list-item>svdisdvy</mat-list-item>
+            <mat-list-item>svdisdvy</mat-list-item>
+            <mat-list-item>svdisdvy</mat-list-item>
+          </mat-list>
+        </div>
+      </div>
+    </mat-drawer-content>
+
+  </mat-drawer-container>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue darken-4">
+    <!-- Footer Elements -->
+    <div class="container-fluid">
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+        <div class="col-md-12 pt-2">
+          <div class="mb-3 flex-center">
+            <a class="details">ABOUT US</a>
+            <a class="details">CONTACT US</a>
+            <a class="details">FAQ</a>
+            <a class="details">DELIVERY</a>
+            <a class="details">RETURN POLICY</a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="rgba-white-light" style="margin: 0 15%;">
+
+      <!-- <div class="row"> -->
+        <!-- <div class="col-md-12 pt-2"> -->
+          <!-- <div class="mb-3 flex-center"> -->
+            <!-- <button mat-raised-button class="subscribe-btn">SUBSCRIBE</button> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <!-- Grid row-->
+      <!-- <div class="row"> -->
+        <!-- Grid column -->
+        <!-- <div class="col-md-12"> -->
+          <!-- <div class="mb-5 flex-center"> -->
+            <!-- Facebook -->
+            <!-- <a class="fb-ic"> -->
+              <!-- <mdb-icon fab icon="facebook" size="lg" class="white-text mr-md-5 mr-3 fb-icon-custom"></mdb-icon> -->
+            <!-- </a> -->
+            <!-- Whatsapp -->
+            <!-- <a class="whatsapp-ic"> -->
+              <!-- <mdb-icon fab icon="whatsapp" size="lg" class="white-text mr-md-5 mr-3"></mdb-icon> -->
+            <!-- </a> -->
+            <!-- Viber-->
+            <!-- <a class="viber-ic"> -->
+              <!-- <mdb-icon fab fab icon="viber" size="lg" class="white-text mr-md-5 mr-3"></mdb-icon> -->
+            <!-- </a> -->
+            <!--Instagram-->
+            <!-- <a class="ins-ic"> -->
+              <!-- <mdb-icon fab icon="instagram" size="lg" class="white-text mr-md-5 mr-3"></mdb-icon> -->
+            <!-- </a> -->
+            <!-- Pinterest -->
+            <!-- <a class="pin-ic"> -->
+              <!-- <mdb-icon fab icon="pinterest" size="lg" class="white-text mr-md-5 mr-3"></mdb-icon> -->
+            <!-- </a> -->
+          <!-- </div> -->
+        <!-- </div> -->
+        <!-- Grid column -->
+      <!-- </div> -->
+      <!-- Grid row-->
+      <!-- <hr> -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mb-2 flex-center">
+            <img src="../assets/Images/visa.png" class="credit-cards">
+            <img src="../assets/Images/master card.png" class="credit-cards">
+            <p>Accepted</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <hr> -->
+
+    </div>
+    <!-- Footer Elements -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Copyright © Online Shopping. All rights reserved
+      <!-- <a href="https://mdbootstrap.com/education/bootstrap/">OnlineShopping.com</a> -->
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!-- Container -->
 
 <router-outlet></router-outlet>
