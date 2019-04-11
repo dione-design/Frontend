@@ -10,6 +10,9 @@
         <a class="toolbar-item">MEN</a>
         <a class="toolbar-item">KIDS</a>
         <a class="toolbar-item">HOMEWEAR</a>
+        <a class="toolbar-item">NEW ARRIVALS</a>
+        <a class="toolbar-item">OFFERS</a>
+        <a class="toolbar-item">BEST SELLING</a>
         <mdb-icon fas icon="shopping-cart" class="toolbar-icon"></mdb-icon>
         <mdb-icon fas icon="sign-in-alt" class="toolbar-icon"></mdb-icon>
       </div>
@@ -17,8 +20,10 @@
   </mat-toolbar>
   <!-- ToolBar -->
 
+  <router-outlet></router-outlet>
+
   <!-- Carousel -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="mdb-carousel-custom mx-auto">
       <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
         <mdb-carousel-item>
@@ -36,12 +41,13 @@
   <!-- Carousel -->
 
   <!-- Cards -->
-  <div class="container">
+  <div class="container-fluid body-content">
 
     <!-- New Arrivals -->
     <div class="row">
       <div class="sub-heading">New Arrivals</div>
     </div>
+
     <div class="row custom-cards mx-auto">
 
       <!-- Card 1 -->
@@ -117,6 +123,8 @@
       <!-- Card 4 -->
 
     </div>
+
+    <a class="card-link">View More +</a>
     <!-- New Arrivals -->
 
     <hr>
@@ -125,6 +133,7 @@
     <div class="row">
       <div class="sub-heading">Offers</div>
     </div>
+
     <div class="row custom-cards mx-auto">
 
       <!-- Card 1 -->
@@ -200,6 +209,8 @@
       <!-- Card 4 -->
 
     </div>
+
+    <a class="card-link">View More +</a>
     <!-- Offers -->
 
     <hr>
@@ -208,6 +219,7 @@
     <div class="row">
       <div class="sub-heading">Best Selling</div>
     </div>
+
     <div class="row custom-cards mx-auto">
 
       <!-- Card 1 -->
@@ -283,39 +295,42 @@
       <!-- Card 4 -->
 
     </div>
+
+    <a class="card-link">View More +</a>
     <!-- Best Selling -->
 
     <hr>
     <br>
 
-    <!-- Subscription -->
-    <div class="row mx-auto">
-
-      <div class="subscribe-heading">
-        <h3>Subscribe!</h3>
-        <p>Be the first to know about New Arrivals and Offers from Dione.</p>
-      </div>
-
-        <!--Grid column-->
-        <div class="col-md-12 mb-4">
-
-          <form class="input-group mx-auto">
-            <input type="text" class="form-control form-control-lg" placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <button mat-raised-button class="subscribe-btn mx-auto">SUBSCRIBE</button>
-            </div>
-          </form>
-
-        </div>
-        <!--Grid column-->
-
-      <!-- <button mat-raised-button class="subscribe-btn mx-auto">SUBSCRIBE</button> -->
-    </div>
-
     <br>
 
   </div>
   <!-- Cards -->
+
+  <!-- Subscription -->
+  <div class="row mx-auto">
+
+    <div class="subscribe-heading mx-auto">
+      <h3>Subscribe!</h3>
+      <p>Be the first to know about New Arrivals and Offers from Dione.</p>
+    </div>
+
+    <!--Grid column-->
+    <div class="col-md-12 mb-4">
+
+      <form class="input-group mx-auto">
+        <input type="text" class="form-control form-control-lg" placeholder="Your email" aria-label="Your email"
+          aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button mat-raised-button class="subscribe-btn mx-auto">SUBSCRIBE</button>
+        </div>
+      </form>
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+  <!-- Subscription -->
 
   <!-- Footer -->
   <footer class="page-footer font-small blue darken-4">
@@ -325,13 +340,7 @@
         <div class="col-md-12 pt-2">
           <div class="mb-3 flex-center">
             <a class="details">ABOUT US</a>
-            <!-- <div> -->
             <a class="details">CONTACT US</a>
-            <!-- <mat-list class="details-list"> -->
-            <!-- <mat-list-item class="details-list-item">Facebook</mat-list-item> -->
-            <!-- </mat-list> -->
-            <!-- </div> -->
-            <!-- <a class="details">FAQ</a> -->
             <a class="details">DELIVERY</a>
             <a class="details">RETURN POLICY</a>
           </div>
@@ -361,3 +370,5 @@
   <!-- Footer -->
 
 </div>
+
+<router-outlet></router-outlet>

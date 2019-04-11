@@ -36,6 +36,12 @@ mat-toolbar {
 .toolbar-item {
   font-size: 17px;
   font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a .toolbar-item :hover {
+  border-bottom-color: black;
 }
 
 .example-spacer {
@@ -89,15 +95,23 @@ mat-toolbar {
 }
 
 .input-group {
-  width: 80%;
+  width: 40%;
 }
 
 .subscribe-heading {
-  margin-left: 120px;
+  text-align: center;
 }
 
 h3 {
   font-weight: 400;
+}
+
+.card-link {
+  font-weight: 400;
+}
+
+.body-content {
+  width: 70%
 }
 
 // .view {
