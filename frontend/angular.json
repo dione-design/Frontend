@@ -37,8 +37,7 @@
             ],
             "scripts": [
               "node_modules/chart.js/dist/Chart.js",
-              "node_modules/hammerjs/hammer.min.js",
-              "src/assets/JavaScript/carousel-custom.js"
+              "node_modules/hammerjs/hammer.min.js"
             ],
             "es5BrowserSupport": true
           },

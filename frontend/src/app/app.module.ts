@@ -5,13 +5,12 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CarouselCustomComponent } from './carousel-custom/carousel-custom.component';
 import { MaterialModuleModule } from './material-module/material-module.module';
+// import {FormControl, Validators} from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarouselCustomComponent
   ],
   imports: [
     BrowserModule,
