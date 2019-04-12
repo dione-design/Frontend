@@ -40,8 +40,9 @@ mat-toolbar {
   padding-bottom: 10px;
 }
 
-a .toolbar-item :hover {
+.toolbar-list a .toolbar-item :hover {
   border-bottom-color: black;
+  background-color: aqua;
 }
 
 .example-spacer {
@@ -56,34 +57,34 @@ a .toolbar-item :hover {
   font-size: 17px;
   font-weight: 500;
 }
-
+// 
 .credit-cards {
   height: 20px;
 }
 
-.mdb-carousel-custom {
-  margin-top: 90px;
-  margin-bottom: 30px;
-}
+// .mdb-carousel-custom {
+//   margin-top: 90px;
+//   margin-bottom: 30px;
+// }
 
-.custom-cards {
-  padding: 10px;
-  margin: 10px;
-}
+// .custom-cards {
+//   padding: 10px;
+//   margin: 10px;
+// }
 
-.card-details {
-  padding-top: 20px;
-}
+// .card-details {
+//   padding-top: 20px;
+// }
 
-.sub-heading {
-  font-size: 2em;
-  font-weight: 500;
-  margin: 50px 50px 30px 50px;
-}
+// .sub-heading {
+//   font-size: 2em;
+//   font-weight: 500;
+//   margin: 50px 50px 30px 50px;
+// }
 
-.details-list-item {
-  text-align: center;
-}
+// .details-list-item {
+//   text-align: center;
+// }
 
 .subscribe-btn {
   background-color: darkblue;
