@@ -10,6 +10,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { WomenComponent } from './women/women.component';
 import { MenComponent } from './men/men.component';
 import { KidsComponent } from './kids/kids.component';
+import { HomewearComponent } from './homewear/homewear.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { KidsComponent } from './kids/kids.component';
     WomenComponent,
     MenComponent,
     KidsComponent,
+    HomewearComponent,
   ],
   imports: [
     BrowserModule,
