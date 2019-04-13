@@ -5,6 +5,7 @@ import { WomenComponent } from './women/women.component';
 import { MenComponent } from './men/men.component';
 import { KidsComponent } from './kids/kids.component';
 import { HomewearComponent } from './homewear/homewear.component';
+import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 
 const routes: Routes = [
   { path: 'home-page', component: HomePageComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'men', component: MenComponent},
   { path: 'kids', component: KidsComponent},
   { path: 'homewear', component: HomewearComponent},
+  { path: 'new-arrivals', component: NewArrivalsComponent},
 ];
 
 @NgModule({
