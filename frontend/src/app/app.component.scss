@@ -55,6 +55,14 @@ mat-toolbar {
   background-color: aqua;
 }
 
+.toolbar-icon {
+  color: black;
+}
+
+.toolbar-icon :visited {
+  color: black;
+}
+
 .details, .details-list {
   padding: 10px 40px 10px 40px;
   margin: 10px 30px 10px 30px;

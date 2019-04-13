@@ -8,6 +8,7 @@ import { HomewearComponent } from './homewear/homewear.component';
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 import { OffersComponent } from './offers/offers.component';
 import { BestSellingComponent } from './best-selling/best-selling.component';
+import { SignupPageComponent } from './signup-page/signup-page.component';
 
 const routes: Routes = [
   { path: 'home-page', component: HomePageComponent },
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'new-arrivals', component: NewArrivalsComponent},
   { path: 'offers', component: OffersComponent},
   { path: 'best-selling', component: BestSellingComponent},
+  { path: 'signup-page', component: SignupPageComponent},
 ];
 
 @NgModule({
