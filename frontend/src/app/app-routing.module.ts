@@ -7,6 +7,7 @@ import { KidsComponent } from './kids/kids.component';
 import { HomewearComponent } from './homewear/homewear.component';
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 import { OffersComponent } from './offers/offers.component';
+import { BestSellingComponent } from './best-selling/best-selling.component';
 
 const routes: Routes = [
   { path: 'home-page', component: HomePageComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'homewear', component: HomewearComponent},
   { path: 'new-arrivals', component: NewArrivalsComponent},
   { path: 'offers', component: OffersComponent},
+  { path: 'best-selling', component: BestSellingComponent},
 ];
 
 @NgModule({
