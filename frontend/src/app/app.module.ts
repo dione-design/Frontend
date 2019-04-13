@@ -14,6 +14,7 @@ import { HomewearComponent } from './homewear/homewear.component';
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 import { OffersComponent } from './offers/offers.component';
 import { BestSellingComponent } from './best-selling/best-selling.component';
+import { SignupPageComponent } from './signup-page/signup-page.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { BestSellingComponent } from './best-selling/best-selling.component';
     NewArrivalsComponent,
     OffersComponent,
     BestSellingComponent,
+    SignupPageComponent,
   ],
   imports: [
     BrowserModule,
