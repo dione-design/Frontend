@@ -12,6 +12,8 @@ import { MenComponent } from './men/men.component';
 import { KidsComponent } from './kids/kids.component';
 import { HomewearComponent } from './homewear/homewear.component';
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
+import { OffersComponent } from './offers/offers.component';
+import { BestSellingComponent } from './best-selling/best-selling.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
     KidsComponent,
     HomewearComponent,
     NewArrivalsComponent,
+    OffersComponent,
+    BestSellingComponent,
   ],
   imports: [
     BrowserModule,
