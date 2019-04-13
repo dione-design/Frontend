@@ -15,6 +15,7 @@ import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 import { OffersComponent } from './offers/offers.component';
 import { BestSellingComponent } from './best-selling/best-selling.component';
 import { SignupPageComponent } from './signup-page/signup-page.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { SignupPageComponent } from './signup-page/signup-page.component';
     OffersComponent,
     BestSellingComponent,
     SignupPageComponent,
+    SubscribeComponent,
   ],
   imports: [
     BrowserModule,
