@@ -7,12 +7,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModuleModule } from './material-module/material-module.module';
 import { HomePageComponent } from './home-page/home-page.component';
-// import {FormControl, Validators} from '@angular/forms';
+import { WomenComponent } from './women/women.component';
+import { MenComponent } from './men/men.component';
+import { KidsComponent } from './kids/kids.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
+    WomenComponent,
+    MenComponent,
+    KidsComponent,
   ],
   imports: [
     BrowserModule,
