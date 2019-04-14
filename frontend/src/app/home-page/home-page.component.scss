@@ -29,8 +29,24 @@
 
 .card-link {
   font-weight: 400;
+  color: black;
+}
+
+.card-link :visited {
+  color: black;
+}
+
+a .card-link :hover {
+  text-decoration: underline;
+  text-decoration-color: black;
 }
 
 .body-content {
   width: 70%
+}
+
+.card-icon {
+  padding: 10px 0 10px 20px;
+  height: 50px;
+  size: 30px; 
 }
