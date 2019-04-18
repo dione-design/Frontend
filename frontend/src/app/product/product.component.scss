@@ -1,0 +1,91 @@
+.body-content {
+  width: 80%;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  box-shadow: 0 10px 10px -1px;
+}
+
+.title, .item-id, .price, .item-color {
+  text-align: left;
+  padding-left: 80px;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.item-id {
+  padding-top: 7px;
+  font-size: 20px;
+  font-weight: 400;
+  color: gray;
+}
+
+.price {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.size, .qty {
+  padding-left: 93px;
+}
+
+.size, .qty, .item-color {
+  padding-top: 50px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.cart-btn, .wishlist-btn {
+  padding-top: 10px;
+}
+
+.cart-btn button, .wishlist-btn button {
+  background-color: white;
+  border-color: darkblue;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 20px;
+}
+
+button :hover {
+  text-decoration: underline;
+}
+
+.go-back {
+  text-align: right;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.go-back a :hover {
+  text-decoration: underline;
+}
+
+.size-btn-list {
+  padding: 0 10px 10px 10px;
+}
+
+.size-btn-list button {
+  font-size: 15px;
+  width: 56px;
+  height: 56px;
+  background-color: white;
+  border-color: darkblue;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.qty-input {
+  margin: 10px 10px 10px 0;
+  border-color: darkblue;
+  height: 50px;
+  border-radius: 8px;
+}
