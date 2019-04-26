@@ -17,6 +17,7 @@ import { BestSellingComponent } from './best-selling/best-selling.component';
 import { SignupPageComponent } from './signup-page/signup-page.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { ProductComponent } from './product/product.component';
+import { WishListComponent } from './wish-list/wish-list.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { ProductComponent } from './product/product.component';
     SignupPageComponent,
     SubscribeComponent,
     ProductComponent,
+    WishListComponent,
   ],
   imports: [
     BrowserModule,
