@@ -34,3 +34,12 @@ hr {
 .card-details {
   padding-top: 20px;
 }
+
+/deep/ .mat-tab-group.mat-primary .mat-ink-bar {
+  background-color: #e22367;
+}
+
+/deep/ .mat-tab-label:active {
+  color: #303030;
+  // font-weight: 700;
+}

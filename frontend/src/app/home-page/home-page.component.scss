@@ -22,23 +22,26 @@
 }
 
 .sub-heading {
+  text-align: center!important;
   font-size: 2em;
+  color: #303030;
   font-weight: 500;
   margin: 50px 50px 30px 50px;
+  cursor: pointer;
 }
 
 .card-link {
   font-weight: 400;
-  color: black;
+  color: #303030;
 }
 
 .card-link :visited {
-  color: black;
+  color: #303030;
 }
 
 a .card-link :hover {
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: #303030;
 }
 
 .body-content {

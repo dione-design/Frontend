@@ -34,3 +34,7 @@ hr {
 .card-details {
   padding-top: 20px;
 }
+
+/deep/ .mat-tab-group.mat-primary .mat-ink-bar {
+  background-color: #e22367;
+}

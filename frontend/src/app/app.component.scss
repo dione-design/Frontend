@@ -20,8 +20,13 @@
 
 .heading {
   font-size: 30px;
-  padding-left: 50px;
+  padding-left: 100px;
   color: black;
+}
+
+.heading img {
+  padding-top: 10px;
+  height: 150px;
 }
 
 .heading :visited {
@@ -43,24 +48,24 @@ mat-toolbar {
   font-weight: 400;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: black;
+  color: #303030;
 }
 
 .toolbar-item :visited {
-  color: black;
+  color: #303030;
 }
 
-.toolbar-list a .toolbar-item :hover {
+.toolbar-list a .toolbar-item:hover {
   border-bottom-color: black;
   background-color: aqua;
 }
 
 .toolbar-icon {
-  color: black;
+  color: #303030;
 }
 
-.toolbar-icon :visited {
-  color: black;
+.toolbar-icon:visited {
+  color: #303030;
 }
 
 .details, .details-list {
@@ -70,6 +75,10 @@ mat-toolbar {
 .details {
   font-size: 17px;
   font-weight: 500;
+}
+
+.details:hover {
+  color: #e22367;
 }
 
 .credit-cards {
@@ -82,4 +91,8 @@ mat-toolbar {
 
 .body-content {
   width: 70%
+}
+
+.page-footer {
+  background-color: #303030;
 }
